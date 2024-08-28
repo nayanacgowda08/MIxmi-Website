@@ -1,0 +1,558 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: wfont_00375d_4647658b64c2451ebc9ed18e4cb826ff, wf_4647658b64c2451ebc9ed18e4, orig_torus_regular; */
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: antiquewhite; */
+    box-shadow: 4px 4px 10px #000000;
+    background-color: white;
+    display: flex;
+    position: fixed;z-index: 3;
+   
+}
+.nav .logo{
+    width: 25%;
+    height: 100px;
+    /* background-color: rgb(99, 231, 241); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav .links{
+    width: 80%;
+    height: 100px;
+    /* font-family: 'Torus Regular', sans-serif; */
+
+    /* background-color: rgb(29, 154, 31); */
+}
+
+.nav .logo img{
+    width: 20%;
+    height: 95px;
+    margin-left: 60%;
+    /* background-color: rgb(99, 231, 241); */
+}
+
+.links .title1{
+    width: 50%;
+    height: 50px;
+   
+}
+
+.links .title1 h1{
+    width: 50%;
+    height: 50px;
+    margin-left: 600px;
+    padding: 10px;
+    color: rgb(212, 103, 139);
+    /* font-family: 'Torus Regular', sans-serif; */
+
+    /* background-color: rgb(99, 241, 132); */
+}
+
+.links .a{
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(99, 137, 241); */
+}
+
+.links .a ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    /* justify-content: space-around; */
+    /* background-color: beige; */
+    height: 50px;
+}
+
+.nav .links .a ul li:hover{
+    cursor: pointer;
+}
+
+.sec1{
+    width: 100%;
+    height: 650px;
+    background-image: url(./images/back.webp);
+    /* background-size: 100% 100px; */
+    /* background-color: blue; */
+    background-size: cover;
+    /* background-position:5%; */
+    /* background-repeat: no-repeat; */
+    /* position: absolute; */
+    /* padding-top: 95px; */
+}
+
+.links .a ul:hover{
+    cursor: pointer;
+}
+
+
+/* .box{
+    text-align: center;
+    width: 50%;
+    height: 150px;
+
+}
+
+button{
+    border-radius: 50px;
+    width: 30%;
+    height:40px;
+    border: 2px solid red;
+    font-size: 20px;
+    background-color: rgb(230, 38, 128);
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: palevioletred;
+} */
+
+.sec2{
+    width: 100%;
+    height: 400px;
+    background-color:rgb(247, 238, 238);
+    display: flex;
+    /* position: relative; */
+    /* top: 0px; */
+}
+
+.sec2 .left{
+    width: 50%;
+    height: 500px;
+    /* background-color: blue; */
+}
+
+.sec2 .left .main1{
+    width: 50%;
+    height: 300px;
+    /* background-color: bisque; */
+    /* padding: 100px; */
+    position: relative;
+    top: 20%;
+    left: 37%;
+    /* margin: auto; */
+    /* padding-top: 100px; */
+}
+
+.sec2 .left .main1 .sub1{
+    width: 100%;
+    height: 80px;
+    /* background-color: #a48292; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2 .left .main1 .sub1 h1{
+    font-size: 40px; 
+    color: #F23D92; 
+}
+.sec2 .left .main1 .sub2 button{
+    width: 50%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #F23D92;
+    border: 1px solid red;
+    margin-left: 90px;
+    font-size: 25px;
+    color: ghostwhite;
+    transition: 0.1s;
+}
+
+.sec2 .left .main1 .sub2 button:hover{
+    border-radius: 18px;
+    background-color: pink;
+}
+
+.sec2 .left .main1 .sub3{
+    width: 100%;
+    height: 140px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+}
+.sec2 .left .main1 .sub3 p{
+    width: 100%;
+    height: 140px;
+    /* background-color: lightblue; */
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    /* font-family: anton; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center; 
+    
+}
+
+.sec2 .right{
+    width: 50%;
+    height: 500px;
+    /* background-color: blue; */
+}
+
+.sec2 .right .main1{
+    width: 50%;
+    height: 300px;
+    /* background-color: bisque; */
+    /* padding: 100px; */
+    position: relative;
+    top: 20%;
+    right: -20%;
+    /* margin: auto; */
+    /* padding-top: 100px; */
+}
+
+.sec2 .right .main1 .sub1{
+    width: 100%;
+    height: 80px;
+    /* background-color: #a48292; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2 .right .main1 .sub1 h1{
+    font-size: 40px; 
+    color: #F23D92; 
+}
+.sec2 .right .main1 .sub2 button{
+    width: 50%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #F23D92;
+    border: 1px solid red;
+    margin-left: 90px;
+    font-size: 25px;
+    color: ghostwhite;
+    transition: 0.1s;
+}
+
+.sec2 .right .main1 .sub2 button:hover{
+    border-radius: 18px;
+    background-color: pink;
+}
+
+.sec2 .right .main1 .sub3{
+    width: 100%;
+    height: 140px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+}
+.sec2 .right .main1 .sub3 p{
+    width: 100%;
+    height: 140px;
+    /* background-color: lightblue; */
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center; 
+    
+}
+
+.sec2 img{
+    width: 40px;
+    height: 40px;
+}
+
+.sec2 #im1{
+    position: relative;
+    top: -160px;
+    left: 35%;
+    rotate: -30deg;
+}
+
+.sec2 #im2{
+    position: relative;
+    top: -50px;
+    left: 30%;
+    rotate: 30deg;
+}
+
+.sec2 #im3{
+    position: relative;
+    top: -180px;
+    left: 70%;
+    rotate: 20deg;
+}
+
+.sec2 #im4{
+    position: relative;
+    top: -30px;
+    left: 68%;
+    rotate: -20deg;
+}
+
+.sec2 #im5{
+    position: relative;
+    top: -100px;
+    left: 62%;
+    rotate: 0deg;
+}
+
+.sec2 #im6{
+    position: relative;
+    top: -173px;
+    left: 18%;
+    rotate: 10deg;
+}
+
+.sec2 #im7{
+    position: relative;
+    top: -90px;
+    left: 7%;
+    rotate: -20deg;
+}
+
+.sec2 #im8{
+    position: relative;
+    top: -20px;
+    left: 8%;
+    rotate: 20deg;
+}
+
+.sec2 #im9{
+    position: relative;
+    top: -130px;
+    left: 50%;
+    rotate: 20deg;
+}
+
+.sec2 #im10{
+    position: relative;
+    top: -20px;
+    left: 45%;
+    rotate: -20deg;
+}
+
+
+.sec3{
+    width: 100%;
+    height: 500px;
+    /* background-color: #F23D92; */
+    display: flex;
+}
+
+.enrich{
+    width: 50%;
+    height: 500px;
+    /* background-color: rgb(36, 12, 110); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightimg{
+    width: 50%;
+    height: 500px;
+    /* background-color: aqua; */
+    background-image: url(./images/left.webp);
+    background-size: cover;
+}
+
+.en{
+    height: 250px;
+    /* background-color: #3c3739; */
+    
+}
+
+.en h1{
+    /* text-align: center; */
+    color: #F23D92;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.en p{
+    color: rgb(58,35,21);
+    font-size: 16px;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+.sec4{
+    margin-top: 5%;
+    width: 100%;
+    height: 500px;
+    background-color: #F23D92;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec4 .gut{
+    width: 50%;
+    height: 500px;
+    background-image: url(./images/sec4.webp);
+    background-size: cover;
+}
+
+.sec4 .info{
+    width: 50%;
+    height: 500px;
+    /* background-color: goldenrod; */
+}
+.info h1{
+    /* text-align: center; */
+    margin-left: 120px;
+    margin-top: 10%;
+}
+.gut1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.sec4 button{
+    width: 25%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #F23D92;
+    border: 1px solid red;
+    margin-left: 80px;
+    font-size: 25px;
+    color: ghostwhite;
+    transition: 0.1s;
+}
+
+.sec4 button:hover{
+    cursor: pointer;
+    border-radius: 18px;
+    background-color: pink;
+}
+
+.gut2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.gut3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.info{
+    background-color: rgb(250, 250, 250);
+}
+
+.sec5{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(9, 48, 48);
+}
+
+/* video{
+    width: 300px;
+    height: 300px;
+} */
+
+footer{
+    width: 100%;
+    height: 400px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+footer .contact{
+    width: 30%;
+    height: 180px;
+    background-color: whitesmoke;
+    /* display: flex; */
+    /* display: inline; */
+    /* position: absolute; */
+
+}
+footer h1{
+    color: #F23D92;
+    letter-spacing: 0.2rem;
+}
+
+footer .visit{
+    width: 30%;
+    height: 180px;
+    background-color: #f1eaed;
+}
+
+.line{
+    width: 65px;
+    height: 10px;
+    background-color: #2b292a;
+    /* text-align: center; */
+    /* text-align: center; */
+    margin-left: 12rem;
+    /* padding: 2px; */
+    margin-top: 3px;
+}
+
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.app img{
+    width: 40px;
+    height: 40px;
+    margin-top: 1rem;
+    /* display: flex; */
+}
+.app img:hover{
+    cursor: pointer;
+}
+
+footer h1{
+    /* padding: 8px; */
+    margin-top: 10px;
+    text-align: center;
+}
+
+.mail{
+    margin-top: 45px;
+    text-align: center;
+}
+
+.mail:hover{
+    cursor: pointer;
+}
+.lastf{
+    width: 60%;
+    height: 200px;
+    /* background-color: #2b292a; */
+    position: absolute;
+    top:50%;
+
+}
+
+.lastf p{
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(144,147,149);
+    padding: 10px;
+    /* margin-top: 2%; */
+}
